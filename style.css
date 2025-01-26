@@ -1,0 +1,82 @@
+*{
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+#navbar {
+  height: 45px;
+  width: 1768;
+  background-color: rgb(2, 0, 17);
+  margin: 1px 3px 2px 3px;
+  padding: 6px 6px 6px 6px ;
+  font-size: 25px;
+  flex-direction: column;
+  
+}
+button{
+  background-color: orange;
+  size: 30px;
+  height: 10px;
+  width: 20px;
+}
+#logo {
+  color:orange ;
+  font-size: 35px;
+}
+a{
+  margin-right:30px ;
+  text-decoration: none;
+  align-content: space-evenly;
+  
+
+}
+#one {
+  height: 50px;
+  width: 3000;
+  background-color: grey;
+  margin: 1px 2px 3px 4px;
+  padding: 1px 1px 1px 1px ;
+  font-size: 19.8px;
+  color: black;
+}
+/* Hero section styles */
+.hero {
+  background-color: #f0f0f0;
+  padding: 16px;
+  top: 1000px;
+}
+
+.hero-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  
+}
+
+.hero-item {
+  flex: 1 1 250px; /* Adjust flex-basis as needed */
+  border: 1px solid #ccc;
+  padding: 1rem;
+  text-align: center;
+  
+}
+
+.hero-item img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.hero-item h3 {
+  margin-bottom: 4px;
+}
+
+/* Footer styles */
+.footer {
+  background-color: #232F3E;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}   
